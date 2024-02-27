@@ -1,0 +1,55 @@
+body {
+    background-image: url("");
+    background-size: cover;
+  }
+  
+  #top {
+    text-align: center;
+    font-size: 30px;
+    position: fixed;
+    width: 100%;
+    color: #ffa8e4;
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  #navbar{
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffe3f8;
+    margin-left: -8px;
+  }
+  
+  li{
+    float: left;
+    width: 50%;
+  }
+  
+  li a{
+    display: block;
+    color: #ffa8e4;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 23px;
+  }
+  
+  a:hover{
+    background-color: #ffcff3;
+  }
+  
+  #intro {
+      margin-inline: 50px;
+      margin-top: 40px;
+      font-family: "Abril Fatface", serif;
+      font-weight: 400;
+      font-style: normal;
+      color: rgb(227, 116, 227);
+      text-align: center;
+  }
+  
+  #intro p {
+      color: rgb(236, 175, 236)
+  }
