@@ -1,43 +1,93 @@
 body {
-    background-image: url("");
-    background-size: cover;
-  }
+  background-size: cover;
+}
+
+header {
+  text-align: center;
+  font-size: 30px;
+  position: fixed;
+  width: 100%;
+  color: #b47eb3;
+  font-family: "Cabin Sketch", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+#header-background {
+  background-color: #f0deef; 
+  position: fixed;
+  width: 100%;
+  height: 120px;
+  z-index: -1; 
+  margin: -10px;
+  margin-top: -20px;
+}
   
-  #top {
-    text-align: center;
-    font-size: 30px;
-    position: fixed;
-    width: 100%;
-    color: #ffa8e4;
-    font-family: "Abril Fatface", serif;
-    font-weight: 400;
-    font-style: normal;
-  }
+#navbar{
+  padding: 0;
+  overflow: hidden;
+  margin-left: -8px;
+  margin-top: 50px;
+}
   
-  #navbar{
-    list-style-type: none;
-    padding: 0;
-    overflow: hidden;
-    background-color: #ffe3f8;
-    margin-left: -8px;
-  }
+.navbar-button {
+  color: #ee6cee;
+  background-color: #f1cef1;
+  cursor: pointer;
+  font-size: 25px;
+  padding: 10px;
+  border-radius: 20px;
+  width: 40%;
+  font-family: "Cabin Sketch", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
   
-  li{
-    float: left;
-    width: 50%;
-  }
-  
-  li a{
-    display: block;
-    color: #ffa8e4;
-    text-align: center;
-    padding: 15px;
-    text-decoration: none;
-    font-size: 23px;
-  }
-  
-  a:hover{
-    background-color: #ffcff3;
-  }
-  
-  
+.navbar-button:hover {
+  background-color: #5ec4ae;
+}
+
+.flex-parent {
+  display: flex;
+}
+
+.jc-center {
+  justify-content: center;
+}
+
+#select-meal {
+  font-size: 25px;
+  text-align: center;
+  color: #eea9ee;
+  font-family: "Cabin Sketch", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.meal-button {
+  background-color: #fdf5df;
+  border-radius: 30px;
+  font-size: 15px;
+  padding: 10px;
+  cursor: pointer;
+  border-color: #ffd5ff;
+  font-family: "Cabin Sketch", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: #ffa8e4;
+}
+
+.meal-button:hover {
+  background-color: #ffd5ff;
+}
+
+.margin-right {
+  margin-right: 20px;
+}
+
+#selected-meal {
+  text-align: center;
+  font-family: "Cabin Sketch", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
