@@ -53,3 +53,75 @@ body {
   #intro p {
       color: rgb(236, 175, 236)
   }
+  .footer {
+    position: relative;
+    width: 100%;
+    background: #120a32;
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .social-icon {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    flex-wrap: nowrap; /* Prevent wrapping onto new lines */
+}
+
+.social-icon__item,
+.menu__item {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.social-icon__link {
+    font-size: 2rem;
+    color: #410e0e;
+    margin: 0; /* Remove any margin */
+    padding: 0; /* Remove any padding */
+    display: inline-block;
+    transition: 0.5s;
+}
+
+.social-icon__link:hover {
+    transform: translateY(-10px);
+}
+  
+  .footer_text{
+    color: white;
+    font-family: 'Chakra Petch';
+    font-size: 15px;
+    line-height: 1.5;
+    padding-left: 30px;
+  }
+  
+  .profile-container {
+    display: flex;
+    justify-content: space-around; /* This spaces out the profiles equally */
+    align-items: center; /* Align items vertically */
+  }
+  
+  .profile {
+    display: flex;
+    flex-direction: column; /* Stack the image and text vertically */
+    align-items: center; /* Center-align the text underneath the image */
+    text-align: center; /* Ensure the text is centered if it breaks into multiple lines */
+  }
+  
+  .profile-image {
+    width: 100px; /* Adjust as needed */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  .profile-description {
+    margin-top: 8px; /* Adjust as needed */
+    /* Add more styling as needed */
+  }
+  
+  
