@@ -10,7 +10,9 @@
     <style>
       @import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@400;700&display=swap')
     </style>
+
     <script type="text/javascript" src="recipe.js"></script>
+    <script type="text/javascript" src="resources/jquery-3.1.1.min.js"></script>
 
   </head>
 
@@ -25,18 +27,23 @@
       </ul>
     </header>
 
-    <br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br><br><br>
 
     <p id="select-meal">Select Meal: </p>
     <div class="flex-parent jc-center">
-      <button class="meal-button margin-right" onclick="selectedMeal('Breakfast')">Breakfast</button>
-      <button class="meal-button margin-right" onclick="selectedMeal('Lunch')">Lunch</button>
-      <button class="meal-button margin-right" onclick="selectedMeal('Dinner')">Dinner</button>
-      <button class="meal-button" onclick="selectedMeal('Snack')">Snack</button>
+      <button class="meal-button margin-right" onclick="selectedMeal('Breakfast')" id="breakfast">Breakfast</button>
+      <button class="meal-button margin-right" onclick="selectedMeal('Lunch')" id="lunch">Lunch</button>
+      <button class="meal-button margin-right" onclick="selectedMeal('Dinner')" id="dinner">Dinner</button>
+      <button class="meal-button" onclick="selectedMeal('Snack')" id="snack">Snack</button>
     </div>
-    <p id="selected-meal"></p>
-    <br><button>Generate Recipe</button>
-    <!--Big centered generate button-->
+    <p id="selected-meal"><br></p><br><br><br>
+    <div class="flex-parent jc-center">
+      <button id="generate-recipe">Generate Recipe</button>
+    </div>
+
+    <div>
+      
+    </div>
 
   </body>
 
