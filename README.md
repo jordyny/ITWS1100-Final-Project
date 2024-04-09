@@ -23,3 +23,8 @@ The secondary area of focus for our project will be the technical aspects of the
 ## Term Project IA
 ![Term Project IA](resources/Term-Project-IA.png)
 
+## Sources
+
+Our recipes were sourced from this database of recipes and sorted to suit what we needed for this project
+
+- https://github.com/dpapathanasiou/recipes 
