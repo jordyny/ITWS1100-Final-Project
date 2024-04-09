@@ -5,27 +5,38 @@
   <head>
 
     <title>Recipe Rendezvous</title>
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="recipe.css">
 
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@400;700&display=swap')
     </style>
+    <script type="text/javascript" src="recipe.js"></script>
 
   </head>
 
   <body>
     
-    <div id="top">
+    <header>
+      <div id="header-background"></div>
       <p>Recipe Rendezvous</p>
       <ul id="navbar">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="">Recipe</a></li>
+        <button class="navbar-button margin-right" onclick="window.location.href='index.html'">Home</button>
+        <button class="navbar-button" onclick="window.location.href=''">Recipe</button>
       </ul>
-    </div>
+    </header>
 
     <br><br><br><br><br><br><br><br><br><br>
 
-    
+    <p id="select-meal">Select Meal: </p>
+    <div class="flex-parent jc-center">
+      <button class="meal-button margin-right" onclick="selectedMeal('Breakfast')">Breakfast</button>
+      <button class="meal-button margin-right" onclick="selectedMeal('Lunch')">Lunch</button>
+      <button class="meal-button margin-right" onclick="selectedMeal('Dinner')">Dinner</button>
+      <button class="meal-button" onclick="selectedMeal('Snack')">Snack</button>
+    </div>
+    <p id="selected-meal"></p>
+    <br><button>Generate Recipe</button>
+    <!--Big centered generate button-->
 
   </body>
 
