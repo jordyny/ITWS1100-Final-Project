@@ -69,6 +69,15 @@ body {
     flex-wrap: nowrap; /* Prevent wrapping onto new lines */
 }
 
+.social-icon-footer {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+  flex-wrap: nowrap; /* Prevent wrapping onto new lines */
+}
+
 .social-icon__item,
 .menu__item {
     list-style: none;
@@ -85,10 +94,21 @@ body {
     transition: 0.5s;
 }
 
+.social-icon__link-footer {
+  font-size: 2rem;
+  color: #fff;
+  margin: 0; /* Remove any margin */
+  padding: 0; /* Remove any padding */
+  display: inline-block;
+  transition: 0.5s;
+}
 .social-icon__link:hover {
     transform: translateY(-10px);
 }
   
+.social-icon__link-footer:hover {
+  transform: translateY(-10px);
+}
   .footer_text{
     color: white;
     font-family: 'Chakra Petch';
