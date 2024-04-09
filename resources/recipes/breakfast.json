@@ -1,0 +1,61 @@
+{
+    "Breakfast":  [
+        {
+            "directions": [
+                "Preheat oven to 375 degrees F (190 degrees C). Grease baking sheets or line them with parchment paper.",
+                "In a large bowl, combine the flour, sugar, and baking powder. Cut in the shortening until the mixture resembles coarse crumbs.",
+                "In another bowl, beat the eggs, milk, seeds and lemon zest until blended well. Add to the dry ingredients and blend until smooth. If the dough seems a bit stiff, add extra milk, one tablespoon at a time.",
+                "On a floured surface, roll dough out 1/4 inch thick and cut using a 2-inch round cutter.  lace cookies 2 inches apart on prepared baking sheet.",
+                "Bake in preheated oven until edges are lightly browned, 7 to 10 minutes. Cool on wire rack."
+            ],
+            "ingredients": [
+                "5 1/2 cups all-purpose flour",
+                "1 1/2 teaspoons lemon zest",
+                "1 1/2 cups white sugar",
+                "1 1/2 teaspoons baking powder",
+                "1 1/2 cups shortening",
+                "3 eggs",
+                "3 tablespoons milk",
+                "3 tablespoons caraway seed"
+            ],
+            "source": "allrecipes.com",
+            "title": "Abernathy Biscuits",
+            "url": "http://allrecipes.com/recipe/10922/abernathy-biscuits/"
+        }
+
+        {
+            "directions": [
+                "In a blender, combine the acai puree, almond milk and maple syrup until the mixture forms a smooth puree. Pour the acai mixture into a bowl Arrange the blueberries and raspberries on top. Sprinkle with the coconut and serve immediately. Serves 1.",
+                "Williams Sonoma Test Kitchen"
+            ],
+            "ingredients": [
+                "2/3 cup (7 oz./220 g) frozen acai puree",
+                "1/2 cup (4 fl. oz./125 ml) almond milk",
+                "2 Tbs. maple syrup",
+                "1/4 cup (1 oz./30 g) fresh blueberries",
+                "1/4 cup (1 oz./30 g) fresh raspberries",
+                "2 Tbs. unsweetened toasted coconut flakes or shredded coconut"
+            ],
+            "source": "www.williams-sonoma.com",
+            "title": "Acai Bowl with Berries and Coconut",
+            "url": "http://www.williams-sonoma.com/recipe/acai-bowl-with-berries-and-coconut.html"
+        }
+
+        {
+            "directions": [
+                "Place acai sorbet in a bowl and top with a layer of granola. Line strawberries and bananas on granola layer and top with coconut and a drizzle of honey."
+            ],
+            "ingredients": [
+                "1 cup acai berry sorbet",
+                "2 tablespoons granola, or as desired",
+                "4 strawberries, sliced",
+                "1 banana",
+                "2 teaspoons unsweetened coconut flakes, or as desired",
+                "1 teaspoon honey, or as desired"
+            ],
+            "source": "allrecipes.com",
+            "title": "Acai Bowl",
+            "url": "http://allrecipes.com/recipe/244353/acai-bowl/"
+        }
+    ]
+}
