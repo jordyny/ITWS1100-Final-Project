@@ -12,11 +12,12 @@ function selectedMeal(mealType) {
 
 document.querySelectorAll('.color-button').forEach(function(button) {
    button.addEventListener('click', function() {
-     // Reset button colors
-     button1.style.backgroundColor = defaultColor1;
-     button2.style.backgroundColor = defaultColor2;
+      // Reset button colors
+      button1.style.backgroundColor = defaultColor1;
+      button2.style.backgroundColor = defaultColor2;
 
-     // Change the color of the clicked button
-     button.style.backgroundColor = 'red'; // You can change 'red' to any color you want
+      // Change the color of the clicked button
+      button.style.backgroundColor = 'red'; // You can change 'red' to any color you want
    });
- });
+});
+
