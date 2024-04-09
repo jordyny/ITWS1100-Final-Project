@@ -21,7 +21,7 @@
             "source": "allrecipes.com",
             "title": "Abernathy Biscuits",
             "url": "http://allrecipes.com/recipe/10922/abernathy-biscuits/"
-        }
+        },
 
         {
             "directions": [
@@ -39,7 +39,7 @@
             "source": "www.williams-sonoma.com",
             "title": "Acai Bowl with Berries and Coconut",
             "url": "http://www.williams-sonoma.com/recipe/acai-bowl-with-berries-and-coconut.html"
-        }
+        },
 
         {
             "directions": [
@@ -56,6 +56,116 @@
             "source": "allrecipes.com",
             "title": "Acai Bowl",
             "url": "http://allrecipes.com/recipe/244353/acai-bowl/"
+        },
+
+        {
+            "directions": [
+                "1. Place two slices of cheese onto each side of bread.",
+                "2. Place bacon and tomato slices onto one side of bread.",
+                "3. Close sandwich.",
+                "4. Spread evenly 1/2 teaspoon of lightly salted butter onto each side of the bread.",
+                "5. Grill over moderate heat for approximately 3-4 minutes."
+            ],
+            "ingredients": [
+                "4 slices American cheese",
+                "2 slices of white bread",
+                "2-3 strips of cooked bacon",
+                "2-3 slices ripe tomato",
+                "1 teaspoon lightly salted butter"
+            ],
+            "source": "www.epicurious.com",
+            "title": "American Cheese, Bacon and Tomato on White Bread",
+            "url": "http://www.epicurious.com/recipes/food/views/american-cheese-bacon-and-tomato-on-white-bread-102915"
+        },
+
+        {
+            "directions": [
+                "Spread the bagel halves with the goat cheese, top each half with 2 salami triangles, 3 slices of tomato, and a basil sprig, and sprinkle the toppings lightly with pepper."
+            ],
+            "ingredients": [
+                "10 mini-bagels, halved horizontally and toasted lightly",
+                "6 ounces soft mild goat cheese",
+                "10 slices of hard salami, each quartered into triangles",
+                "60 slices of cherry tomato (about 20 tomatoes)",
+                "20 small basil sprigs"
+            ],
+            "source": "www.epicurious.com",
+            "title": "Goat Cheese, Salami, and Tomato on Mini-Bagels",
+            "url": "http://www.epicurious.com/recipes/food/views/goat-cheese-salami-and-tomato-on-mini-bagels-10544"
+        },
+
+        {
+            "directions": [
+                "Mix together the unsifted flour, 3 tablespoons sugar, 1-1/2 teaspoons salt, yeast, water, and butter in the bread machine on the manual setting.",
+                "OR, mix 1-1/2 cup flour, 3 tablespoons sugar, 1-1/2 teaspoons salt, and yeast.  Heat water and butter to 120-130 degrees F.  Add water to dry ingredients; beat 2 minutes at medium speed on mixer.  Add 1/2 cup flour, beat at high speed 2 minutes.  Stir in more flour to make a stiff dough.  Knead 8-10 minutes.  Cover and let rise.  Punch down.  Cover; let rest 15 minutes.",
+                "Remove from bread machine.",
+                "Divide dough into 12 pieces; shape 3 pieces into smooth balls.  Poke a 1 inch hole in each.  Drop bagels into a large skillet with 1 inch water (simmering) with 1 tablespoon sugar and 2 teaspoons salt in the water.  Cook on medium low heat for 3 minutes, turn and cook 2 minutes; turn again, cook 1 minute more.  Drain on towels.  Repeat for rest of dough.  Place on greased cookie sheet.",
+                "Bake at 375 degrees F (190 degrees C) for 20-25 minutes.  Remove from sheets and cool.  If desired, before baking, mix 1 egg white and 1 tablespoon water, brush on bagels, and sprinkle with sesame, poppy, or caraway seeds."
+            ],
+            "ingredients": [
+                "4 1/2 cups all-purpose flour",
+                "3 tablespoons white sugar",
+                "1 1/2 teaspoons salt",
+                "1 (.25 ounce) package active dry yeast",
+                "1 2/3 cups warm water",
+                "2 tablespoons margarine",
+                "1 tablespoon white sugar",
+                "2 teaspoons salt"
+            ],
+            "source": "allrecipes.com",
+            "title": "Bagels I",
+            "url": "http://allrecipes.com/recipe/6828/bagels-i/"
+        },
+
+        {
+            "ingredients": [
+                "1 red bell pepper",
+                "1/4 medium mango, cut into pieces",
+                "2 tablespoons light brown sugar",
+                "2 tablespoons white wine vinegar",
+                "2 tablespoons fresh orange juice",
+                "1 tablespoons fresh lime juice",
+                "1/2 teaspoon cayenne pepper",
+                "Kosher salt",
+                "9 large eggs",
+                "1/4 cup whole milk",
+                "1/4 cup (1/2 stick) unsalted butter",
+                "3/4 cup grated extra sharp cheddar",
+                "Kosher salt",
+                "freshly ground pepper",
+                "6 kaiser rolls, split, lightly toasted",
+                "1 avocado, sliced",
+                "3 ounces drained pickled cherry peppers or Peppadew peppers, thinly sliced"
+            ],
+            "source": "www.epicurious.com",
+            "title": "Egg and Avocado Breakfast Sandwich",
+            "url": "http://www.epicurious.com/recipes/food/views/egg-and-avocado-breakfast-sandwich-51252350"
+        },
+
+        {
+            "directions": [
+                "Preheat oven to 350 degrees F (175 degrees C). Generously grease muffin cups or line with paper liners.",
+                "Combine oats, oat flour, cinnamon, allspice, baking soda, and salt in a large bowl. Add apples, yogurt, eggs, brown sugar, butter, and vanilla extract to oat mixture until batter is well mixed; fold in walnuts. Pour batter into the prepared muffin cups.",
+                "Bake in the preheated oven until a toothpick inserted in the center comes out clean, about 25 minutes."
+            ],
+            "ingredients": [
+                "1 cup whole oats",
+                "1 cup oat flour",
+                "1 teaspoon ground cinnamon",
+                "1/2 teaspoon allspice",
+                "1/2 teaspoon baking soda",
+                "1/2 teaspoon salt",
+                "2 large apples - peeled, cored, and chopped",
+                "3/4 cup plain yogurt",
+                "2 eggs",
+                "1/2 cup brown sugar",
+                "1/4 cup butter, melted",
+                "1 teaspoon vanilla extract",
+                "1/2 cup chopped walnuts"
+            ],
+            "source": "allrecipes.com",
+            "title": "Apple Oatmeal Breakfast Cups",
+            "url": "http://allrecipes.com/recipe/241411/apple-oatmeal-breakfast-cups/"
         }
     ]
 }
