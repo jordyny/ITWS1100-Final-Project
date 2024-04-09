@@ -4,7 +4,7 @@ body {
 
 header {
   text-align: center;
-  font-size: 30px;
+  font-size: 50px;
   position: fixed;
   width: 100%;
   color: #b47eb3;
@@ -14,7 +14,6 @@ header {
 }
 
 #header-background {
-  background-color: #f0deef; 
   position: fixed;
   width: 100%;
   height: 120px;
@@ -27,16 +26,17 @@ header {
   padding: 0;
   overflow: hidden;
   margin-left: -8px;
-  margin-top: 50px;
+  margin-top: -40px;
 }
   
 .navbar-button {
-  color: #ee6cee;
-  background-color: #f1cef1;
+  color: grey;
+  background-color: rgb(235, 255, 235);
   cursor: pointer;
   font-size: 25px;
   padding: 10px;
   border-radius: 20px;
+  border: 1px solid grey;
   width: 40%;
   font-family: "Cabin Sketch", sans-serif;
   font-weight: 700;
@@ -44,7 +44,7 @@ header {
 }
   
 .navbar-button:hover {
-  background-color: #5ec4ae;
+  background-color: rgb(222, 254, 222);
 }
 
 .flex-parent {
@@ -75,6 +75,7 @@ header {
   font-weight: 700;
   font-style: normal;
   color: #ffa8e4;
+  width: 100px;
 }
 
 .meal-button:hover {
@@ -82,7 +83,7 @@ header {
 }
 
 .margin-right {
-  margin-right: 20px;
+  margin-right: 10px;
 }
 
 #selected-meal {
@@ -90,4 +91,23 @@ header {
   font-family: "Cabin Sketch", sans-serif;
   font-weight: 700;
   font-style: normal;
+  color: #8bb8a8;
+}
+
+#generate-recipe {
+  font-size: 28px;
+  padding: 15px;
+  border-radius: 30px;
+  background-color: #ddfbf5;
+  color: #5fa898;
+  font-family: "Cabin Sketch", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  border: 1.5px solid;
+  width: 50%;
+  cursor: pointer;
+}
+
+#generate-recipe:hover {
+  background-color: #cdf4ed;
 }
