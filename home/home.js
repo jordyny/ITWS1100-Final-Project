@@ -1,78 +1,14 @@
 $(function() {
-    $.ajax({
-        // HTTP method used for the request
-        type: "GET",
-        url: "./json/caitlin.json",
-        dataType: "json",
-        // function for successful response
-        success: function(responseData, status){
-            var output = "<ul>";  
-            // loops through each item in the json response
-            $.each(responseData.aboutYou, function(i, item) { 
-                output += '<h3>' + item.name + '</h3>';
-                output += '<h3>'+ item.fun-fact +'</h3>';
-                output += '<br>';
-            });
-            output += "</ul>";
-            //insert html into the div with the id projects-menu
-            $('#caitlin-about').html(output);
-        },
-        // error handle
-        error: function(msg) {
-            alert("There was a problem: " + msg.status + " " + msg.statusText);
-        }
+    // Function to initially hide the about content
+    $('#caitlin-about, #jordyn-about, #kaitlin-about').hide();
+
+    // Function to toggle visibility of about content
+    $('.show-more').click(function() {
+        var target = $(this).data('target');
+        $('#' + target).slideToggle();
     });
 
-    $.ajax({
-        // HTTP method used for the request
-        type: "GET",
-        url: "./json/jordyn.json",
-        dataType: "json",
-        // function for successful response
-        success: function(responseData, status){
-            var output = "<ul>";  
-            // loops through each item in the json response
-            $.each(responseData.aboutYou, function(i, item) { 
-                output += '<h3>' + item.name + '</h3>';
-                output += '<h3>'+ item.fun-fact +'</h3>';
-                output += '<br>';
-            });
-            output += "</ul>";
-            //insert html into the div with the id projects-menu
-            $('#jordyn-about').html(output);
-        },
-        // error handle
-        error: function(msg) {
-            alert("There was a problem: " + msg.status + " " + msg.statusText);
-        }
-    });
-
-    $.ajax({
-        // HTTP method used for the request
-        type: "GET",
-        url: "./json/kaitlin.json",
-        dataType: "json",
-        // function for successful response
-        success: function(responseData, status){
-            var output = "<ul>";  
-            // loops through each item in the json response
-            $.each(responseData.aboutYou, function(i, item) { 
-                output += '<h3>' + item.name + '</h3>';
-                output += '<h3>'+ item.fun-fact +'</h3>';
-                output += '<br>';
-            });
-            output += "</ul>";
-            //insert html into the div with the id projects-menu
-            $('#kaitlin-about').html(output);
-        },
-        // error handle
-        error: function(msg) {
-            alert("There was a problem: " + msg.status + " " + msg.statusText);
-        }
-    });
-
-    
-    // Event listeners updated to use .on()
+    // Event listeners to handle "Hide" and "Show More" clicks
     $("#hideC").on("click", function() {
         $("#caitlin-about").fadeOut(500);
     });
@@ -96,5 +32,62 @@ $(function() {
     $("#showK").on("click", function() {
         $("#kaitlin-about").fadeIn(500);
     });
+
+    // AJAX requests for each developer
+    $.ajax({
+        type: "GET",
+        url: "./home/jsons/caitlin.json",
+        dataType: "json",
+        success: function(responseData, status){
+            var output = "<ul>";  
+            $.each(responseData.aboutYou, function(i, item) { 
+                output += '<h3>' + item.major + '</h3>';
+                output += '<h3>'+ item.funFact +'</h3>';
+                output += '<br>';
+            });
+            output += "</ul>";
+            $('#caitlin-about').html(output);
+        },
+        error: function(msg) {
+            alert("There was a problem: " + msg.status + " " + msg.statusText);
+        }
+    });
+
+    $.ajax({
+        type: "GET",
+        url: "./home/jsons/jordyn.json",
+        dataType: "json",
+        success: function(responseData, status){
+            var output = "<ul>";  
+            $.each(responseData.aboutYou, function(i, item) { 
+                output += '<h3>' + item.major + '</h3>';
+                output += '<h3>'+ item.funFact +'</h3>';
+                output += '<br>';
+            });
+            output += "</ul>";
+            $('#jordyn-about').html(output);
+        },
+        error: function(msg) {
+            alert("There was a problem: " + msg.status + " " + msg.statusText);
+        }
+    });
+
+    $.ajax({
+        type: "GET",
+        url: "./home/jsons/kaitlin.json",
+        dataType: "json",
+        success: function(responseData, status){
+            var output = "<ul>";  
+            $.each(responseData.aboutYou, function(i, item) { 
+                output += '<h3>' + item.major + '</h3>';
+                output += '<h3>'+ item.funFact +'</h3>';
+                output += '<br>';
+            });
+            output += "</ul>";
+            $('#kaitlin-about').html(output);
+        },
+        error: function(msg) {
+            alert("There was a problem: " + msg.status + " " + msg.statusText);
+        }
+    });
 });
-    

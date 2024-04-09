@@ -36,10 +36,6 @@ body {
     font-size: 23px;
   }
   
-  a:hover{
-    background-color: #ffcff3;
-  }
-  
   #intro {
       margin-inline: 50px;
       margin-top: 40px;
