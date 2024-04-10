@@ -3,10 +3,19 @@ $(function() {
     $('#caitlin-about, #jordyn-about, #kaitlin-about').hide();
 
     // Function to toggle visibility of about content
-    $('.show-more').click(function() {
+    $('.toggle-about').click(function() {
         var target = $(this).data('target');
+        var isVisible = $('#' + target).is(":visible");
+        
+        if (isVisible) {
+            $(this).text('Show More'); 
+        } else {
+            $(this).text('Hide'); 
+        }
+
         $('#' + target).slideToggle();
     });
+
 
     // Event listeners to handle "Hide" and "Show More" clicks
     $("#hideC").on("click", function() {
@@ -43,6 +52,7 @@ $(function() {
             $.each(responseData.aboutYou, function(i, item) { 
                 output += '<h3>' + item.major + '</h3>';
                 output += '<h3>'+ item.funFact +'</h3>';
+                output += '<h3>'+ item.favFood +'</h3>';
                 output += '<br>';
             });
             output += "</ul>";
@@ -62,6 +72,7 @@ $(function() {
             $.each(responseData.aboutYou, function(i, item) { 
                 output += '<h3>' + item.major + '</h3>';
                 output += '<h3>'+ item.funFact +'</h3>';
+                output += '<h3>'+ item.favFood +'</h3>';
                 output += '<br>';
             });
             output += "</ul>";
@@ -81,6 +92,7 @@ $(function() {
             $.each(responseData.aboutYou, function(i, item) { 
                 output += '<h3>' + item.major + '</h3>';
                 output += '<h3>'+ item.funFact +'</h3>';
+                output += '<h3>'+ item.favFood +'</h3>';
                 output += '<br>';
             });
             output += "</ul>";

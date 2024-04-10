@@ -2,7 +2,8 @@
     "aboutYou": [
        {
           "major": "Major: Computer Science/ITWS",
-          "funFact": "Fun Fact: I'm a New York Yankees Fan!"
+          "funFact": "Fun Fact: I can't cook.",
+          "favFood": "Favorite Food: Spaghetti"
        }
     ]
  }
