@@ -61,12 +61,12 @@ body {
   }
   
   .social-icon {
-    position: relative;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start; /* Align icons to the left */
     align-items: center;
     margin: 10px 0;
-    flex-wrap: nowrap; /* Prevent wrapping onto new lines */
+    padding-left: 0; /* Remove any default padding that might exist */
+    list-style-type: none; /* Remove bullet points from list items */
 }
 
 .social-icon-footer {
