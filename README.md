@@ -12,12 +12,12 @@ Our project Recipe Rendezvous aims to allow users to receive random recipes base
 <em>Primary Area of Focus: </em>
 
 
-The primary area of focus of our project is to complete a project that targets all of our goals for this project. This entails building an application that takes in the inputs (meal preference) of users and provides them with recipes based on this information. This app is expected to be a very user friendly app so that it is easy and fun to use for people regardless of their needs and draws in users by making it look pleasant to the eyes.
+The primary area of focus of our project is Area 1: HTML, CSS, and graphics for  page layout and design. This app is expected to be a very user friendly app so that it is easy and fun to use for people regardless of their needs and draws in users by making it look pleasant to the eyes with a comprehensive color palatte, with easily accessible and clear buttons. 
 
 <em>Secondary Area of Focus: </em>
 
 
-The secondary area of focus for our project will be the technical aspects of the project. This includes developing the JavaScript needed to analyze the meals and generate recipes. This focus also includes performance, where performance will come secondary to user experience. Another secondary area of focus will be the quality of the recipes that are outputted to the user. Recipes will be relevant, but also of high quality which will consider restrictions and preferences.
+The secondary area of focus for our project will be Area 3: Pull static data from a JSON data file. We created four separate JSON files to store our pre-selected recipes for each meal. These recipes were parsed using jQuery to display a randomly pulled recipe from the list of recipes. We also pulled data from a JSON file to display information for each developer on the home page using AJAX and jQuery.
 
 ## Term Project IA
 ![Term Project IA](resources/Term-Project-IA.png)
