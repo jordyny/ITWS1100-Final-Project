@@ -66,17 +66,18 @@ header {
 }
 
 #intro p {
-  color: rgb(236, 175, 236)
+  color: #eea9ee;
 }
 .footer {
   position: relative;
   width: 100%;
-  background: #120a32;
+  background: #ddfbf5;
   min-height: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  color: rgb(236, 175, 236)
 }
 
 .social-icon {
@@ -115,7 +116,7 @@ flex-wrap: nowrap; /* Prevent wrapping onto new lines */
 
 .social-icon__link-footer {
 font-size: 2rem;
-color: #fff;
+color: rgb(232, 198, 232);
 margin: 0; /* Remove any margin */
 padding: 0; /* Remove any padding */
 display: inline-block;
@@ -129,7 +130,7 @@ transition: 0.5s;
 transform: translateY(-10px);
 }
 .footer_text{
-  color: white;
+  color: rgb(232, 198, 232);
   font-family: "Cabin Sketch", sans-serif;
   font-weight: 700;
   font-style: normal;
