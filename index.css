@@ -164,3 +164,28 @@ transform: translateY(-10px);
   /* Add more styling as needed */
 }
 
+/* Normal state of the h2 header */
+h2 {
+  transition: font-size 0.3s ease-in-out; 
+  font-size: 24px;
+}
+
+/* Hover state of the h2 header */
+h2:hover {
+  font-size: 30px; 
+}
+
+/* Style for 'Show More' links */
+.toggle-about {
+  transition: color 0.3s ease-in-out, font-size 0.3s ease-in-out; 
+  color: #000; 
+  font-size: 16px; 
+  text-decoration: none; 
+}
+
+/* Hover state for 'Show More' links */
+.toggle-about:hover {
+  color: #0056b3; 
+  font-size: 23px;
+  text-decoration: underline; 
+}
