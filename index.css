@@ -189,3 +189,7 @@ h2:hover {
   font-size: 23px;
   text-decoration: underline; 
 }
+
+.no-bullets {
+  list-style-type: none;
+}
