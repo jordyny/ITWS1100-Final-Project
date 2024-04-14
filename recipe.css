@@ -11,6 +11,8 @@ header {
   font-family: "Cabin Sketch", sans-serif;
   font-weight: 700;
   font-style: normal;
+  background-color: #fff;
+  margin-top: -10px;
 }
 
 #header-background {
