@@ -193,3 +193,7 @@ h2:hover {
 .no-bullets {
   list-style-type: none;
 }
+
+.why {
+  margin-bottom: 25px;
+}
