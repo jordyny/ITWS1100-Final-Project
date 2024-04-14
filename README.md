@@ -27,3 +27,11 @@ The secondary area of focus for our project will be Area 3: Pull static data fro
 Our recipes were sourced from this database of recipes and sorted to suit what we needed for this project
 
 - https://github.com/dpapathanasiou/recipes 
+
+To learn jQuery, HTML, and CSS styling for our webpage.
+
+- https://www.geeksforgeeks.org/
+- https://stackoverflow.com/
+- https://fonts.google.com/
+-https://coder-coder.com/how-to-center-button-with-html-css/#:~:text=You%20can%20achieve%20this%20by,center%20them%20on%20the%20page.
+- https://www.w3schools.com/css/css3_buttons.asp
