@@ -17,54 +17,8 @@ function selectedMeal(mealType) {
       document.getElementById('dessert').style = 'background-color: #ffd5ff;';
    } 
 
-   var JSONfile;
-
-   if (mealType == "Breakfast") {
-      JSONfile = "breakfast.json";
-   } else if (mealType == "Lunch") {
-      JSONfile = "lunch.json";
-   } else if (mealType == "Dessert") {
-      JSONfile = "dessert.json";
-   } else if (mealType == "Dinner") {
-      JSONfile = "dinner.json";
-   }
-
-   $.ajax({
-      type: "GET",
-      url: "resources/recipes/" + JSONfile,
-      dataType: "json",
-      success: function(data, status){
-         console.log("Success:", data);
-         var output = "";
-         var meals = data.Meal;
-         var numRecipes = Math.floor(Math.random() * (meals.length - 1)) + 1; // Generate a random number of recipes to display
-
-         for (var i = 0; i < numRecipes; i++) {
-            var randomIndex = Math.floor(Math.random() * meals.length); // Get a random index
-            var randomMeal = meals.splice(randomIndex, 1)[0]; // Remove the selected meal from the array
-            output += "<section class='card'>";
-            output += "<img src='images/" + mealType + "/" + randomMeal.image + "' alt='" + randomMeal.desc + "'>";
-            output += "<div class='texts'>";
-            output += "<h2>" + randomMeal.title + "</h2>";
-            output += "<p>" + randomMeal.desc + "</p>";
-            output += "<button type='submit'>More details..</button>";
-            output += "</div>";
-            output += "</section>";
-         }
-
-         $(".container").html(output);
-         
-         // generate another set of recipes
-         $("#generate-recipe").click(function() {
-            selectedMeal(mealType); // Call the function to generate a new set of random recipes
-         });
-      },
-      error: function(xhr, status, error) {
-         console.log("Error:", status, error);
-         // There was a problem
-         alert("There was a problem: " + xhr.status + " " + xhr.statusText);
-      }
-   });
+   // Store the selected meal type in a global variable
+   window.selectedMealType = mealType;
 }
 
 
@@ -93,5 +47,67 @@ document.querySelectorAll('.color-button').forEach(function(button) {
 });
 
 $(document).ready(function() {
-   
+   $("#generate-recipe").click(function() {
+      var mealType = window.selectedMealType;
+      if (mealType) {
+         // Clear existing recipe results
+         clearRecipes();
+
+         // Proceed with generating recipes only if a meal type is selected
+         generateRecipes(mealType);
+      } else {
+         // Inform the user to select a meal first
+         alert("Please select a meal first.");
+      }
+   });
 });
+
+function clearRecipes() {
+   $(".container").html(""); // Clear the container content
+}
+
+function generateRecipes(mealType) {
+   var JSONfile;
+
+   if (mealType == "Breakfast") {
+      JSONfile = "breakfast.json";
+   } else if (mealType == "Lunch") {
+      JSONfile = "lunch.json";
+   } else if (mealType == "Dessert") {
+      JSONfile = "dessert.json";
+   } else if (mealType == "Dinner") {
+      JSONfile = "dinner.json";
+   }
+
+   $.ajax({
+      type: "GET",
+      url: "resources/recipes/" + JSONfile,
+      dataType: "json",
+      success: function(data, status){
+         console.log("Success:", data);
+         var output = ""; // Add text before the gallery
+         var meals = data.Meal;
+         var numRecipes = Math.floor(Math.random() * (meals.length - 1)) + 1; // Generate a random number of recipes to display
+
+         for (var i = 0; i < numRecipes; i++) {
+            var randomIndex = Math.floor(Math.random() * meals.length); // Get a random index
+            var randomMeal = meals.splice(randomIndex, 1)[0]; // Remove the selected meal from the array
+            output += "<section class='card'>";
+            output += "<img src='images/" + mealType + "/" + randomMeal.image + "' alt='" + randomMeal.desc + "'>";
+            output += "<div class='texts'>";
+            output += "<h2>" + randomMeal.title + "</h2>";
+            output += "<p>" + randomMeal.desc + "</p>";
+            output += "<button type='submit'>More details..</button>";
+            output += "</div>";
+            output += "</section>";
+         }
+
+         $(".container").html(output);
+      },
+      error: function(xhr, status, error) {
+         console.log("Error:", status, error);
+         // There was a problem
+         alert("There was a problem: " + xhr.status + " " + xhr.statusText);
+      }
+   });
+}
