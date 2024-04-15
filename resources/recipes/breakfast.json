@@ -1,5 +1,5 @@
 {
-    "Breakfast":  [
+    "Meal":  [
         {
             "directions": [
                 "Preheat oven to 375 degrees F (190 degrees C). Grease baking sheets or line them with parchment paper.",
@@ -20,7 +20,9 @@
             ],
             "source": "allrecipes.com",
             "title": "Abernathy Biscuits",
-            "url": "http://allrecipes.com/recipe/10922/abernathy-biscuits/"
+            "url": "http://allrecipes.com/recipe/10922/abernathy-biscuits/",
+            "image": "abernathy-biscuits.png",
+            "desc": "Good rolled cookies."
         },
 
         {
@@ -38,7 +40,9 @@
             ],
             "source": "www.williams-sonoma.com",
             "title": "Acai Bowl with Berries and Coconut",
-            "url": "http://www.williams-sonoma.com/recipe/acai-bowl-with-berries-and-coconut.html"
+            "url": "http://www.williams-sonoma.com/recipe/acai-bowl-with-berries-and-coconut.html",
+            "image": "acai-coconut-bowl.png",
+            "desc": "Acai bowls are the hottest trend to hit the breakfast table in years, and with good reason. "
         },
 
         {
@@ -55,7 +59,9 @@
             ],
             "source": "allrecipes.com",
             "title": "Acai Bowl",
-            "url": "http://allrecipes.com/recipe/244353/acai-bowl/"
+            "url": "http://allrecipes.com/recipe/244353/acai-bowl/",
+            "image": "acai-bowl.png",
+            "desc": "Encountered this dairy-free acai bowl recipe in Hawaii. It was very good."
         },
 
         {
@@ -75,7 +81,9 @@
             ],
             "source": "www.epicurious.com",
             "title": "American Cheese, Bacon and Tomato on White Bread",
-            "url": "http://www.epicurious.com/recipes/food/views/american-cheese-bacon-and-tomato-on-white-bread-102915"
+            "url": "http://www.epicurious.com/recipes/food/views/american-cheese-bacon-and-tomato-on-white-bread-102915",
+            "image": "tomato-bacon-grillcheese.png",
+            "desc": "A yummy meal that you and your kids will love! A simple golden brown grilled cheese sandwich with the twist of bacon and tomato."
         },
 
         {
@@ -91,7 +99,9 @@
             ],
             "source": "www.epicurious.com",
             "title": "Goat Cheese, Salami, and Tomato on Mini-Bagels",
-            "url": "http://www.epicurious.com/recipes/food/views/goat-cheese-salami-and-tomato-on-mini-bagels-10544"
+            "url": "http://www.epicurious.com/recipes/food/views/goat-cheese-salami-and-tomato-on-mini-bagels-10544",
+            "image": "miniBagel-tomatogoat.png",
+            "desc": "Creamy goat cheese and ULTRA-juicy heirloom tomatoes join forces and take these summery open-faced goat cheese bagel sandwiches to the next level!"
         },
 
         {
@@ -114,7 +124,9 @@
             ],
             "source": "allrecipes.com",
             "title": "Bagels I",
-            "url": "http://allrecipes.com/recipe/6828/bagels-i/"
+            "url": "http://allrecipes.com/recipe/6828/bagels-i/",
+            "image": "bagel.png",
+            "desc": "Chewy and delicious."
         },
 
         {
@@ -139,7 +151,9 @@
             ],
             "source": "www.epicurious.com",
             "title": "Egg and Avocado Breakfast Sandwich",
-            "url": "http://www.epicurious.com/recipes/food/views/egg-and-avocado-breakfast-sandwich-51252350"
+            "url": "http://www.epicurious.com/recipes/food/views/egg-and-avocado-breakfast-sandwich-51252350",
+            "image": "avocado-sandwich.png",
+            "desc": "Make this egg and avocado sandwich for a delicious restaurant-style breakfast at home! It's quick, easy, and delicious."
         },
 
         {
@@ -165,7 +179,9 @@
             ],
             "source": "allrecipes.com",
             "title": "Apple Oatmeal Breakfast Cups",
-            "url": "http://allrecipes.com/recipe/241411/apple-oatmeal-breakfast-cups/"
+            "url": "http://allrecipes.com/recipe/241411/apple-oatmeal-breakfast-cups/",
+            "image": "oatmeal-cups.png",
+            "desc": "These make a quick and easy breakfast or anytime snack. They freeze well too!"
         }
     ]
 }

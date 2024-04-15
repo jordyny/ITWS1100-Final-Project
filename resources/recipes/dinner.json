@@ -1,5 +1,5 @@
 {
-    "Dinner":  [
+    "Meal":  [
         {
             "directions": [
                 "Preheat oven to 425 degrees F (220 degrees C).",
@@ -18,7 +18,9 @@
             ],
             "source": "allrecipes.com",
             "title": "Abbey's Best Roast Chicken",
-            "url": "http://allrecipes.com/recipe/255246/abbeys-best-roast-chicken/"
+            "url": "http://allrecipes.com/recipe/255246/abbeys-best-roast-chicken/",
+            "image": "roast-chicken.png",
+            "desc": "This is the best roast chicken I have ever made, and I won't make it any other way now!"
         },
 
         {
@@ -41,7 +43,9 @@
             ],
             "source": "allrecipes.com",
             "title": "Abby's Chicken Rollatini",
-            "url": "http://allrecipes.com/recipe/57532/abbys-chicken-rollatini/"
+            "url": "http://allrecipes.com/recipe/57532/abbys-chicken-rollatini/",
+            "image": "chicken-rollatini.png",
+            "desc": "This rollatini chicken is much like chicken saltimbocca, smothered in Parmesan cheese, rolled with mozzarella and prosciutto, then baked in white wine."
         },
 
         {
@@ -62,7 +66,9 @@
             ],
             "source": "allrecipes.com",
             "title": "Acapulco Chicken",
-            "url": "http://allrecipes.com/recipe/19123/acapulco-chicken/"
+            "url": "http://allrecipes.com/recipe/19123/acapulco-chicken/",
+            "image": "acapulco-chicken.png",
+            "desc": "Easy, fast, healthy, and delicious! This perfect weeknight Acapulco chicken dish takes less than 30 minutes, so it's a regular in our house. You can vary the heat by the kind and amount of chili powder and hot peppers you use. Serve over hot cooked rice, if desired."
         },
 
         {
@@ -80,25 +86,9 @@
             ],
             "source": "www.epicurious.com",
             "title": "Strip Steak with Roasted Acorn Squash and Sprouted Lentils",
-            "url": "http://www.epicurious.com/recipes/food/views/strip-steak-with-roasted-acorn-squash-and-sprouted-lentils"
-        },
-
-        {
-            "directions": [
-                "Heat a dry medium skillet, preferably cast iron, over medium-high. Season steak all over with salt and pepper and cook, turning several times, until lightly charred, 7\u20139 minutes for medium-rare. Transfer to a cutting board; let rest at least 15 minutes before thinly slicing against the grain.",
-                "Meanwhile, toss lentils with 2 Tbsp. pesto in a small bowl and season with salt.",
-                "Divide lentil mixture between shallow bowls or plates and top with steak and some feta and roasted squash. Finish with a handful of almonds. Serve with more pesto alongside."
-            ],
-            "ingredients": [
-                "1 (12-ounce) boneless strip steak",
-                "Kosher salt, freshly ground pepper",
-                "1 cup Sprouted Red Lentils",
-                "2 tablespoons Horseradish-Pumpkin Seed Pesto, plus more",
-                "Marinated Feta with Roasted Lemon, Coconut-Oil Roasted Squash with Nutritional Yeast, and coarsely chopped almonds (for serving)"
-            ],
-            "source": "www.epicurious.com",
-            "title": "Strip Steak with Roasted Acorn Squash and Sprouted Lentils",
-            "url": "http://www.epicurious.com/recipes/food/views/strip-steak-with-roasted-acorn-squash-and-sprouted-lentils"
+            "url": "http://www.epicurious.com/recipes/food/views/strip-steak-with-roasted-acorn-squash-and-sprouted-lentils",
+            "image": "steak-acorn.png",
+            "desc": "This steak, with lentils, squash, pesto, almonds, and marinated feta, will be unlike anything you've ever tried before. In a good way."
         },
 
         {
@@ -118,7 +108,9 @@
             ],
             "source": "allrecipes.com",
             "title": "Easy Salmon Acqua Pazza",
-            "url": "http://allrecipes.com/recipe/205667/easy-salmon-acqua-pazza/"
+            "url": "http://allrecipes.com/recipe/205667/easy-salmon-acqua-pazza/",
+            "image": "salmon-acca-pazza.png",
+            "desc": "Microwave salmon fillets for 6 minutes. That's all!"
         },
 
         {
@@ -160,7 +152,9 @@
             ],
             "source": "allrecipes.com",
             "title": "Adams Family Duck",
-            "url": "http://allrecipes.com/recipe/212667/adams-family-duck/"
+            "url": "http://allrecipes.com/recipe/212667/adams-family-duck/",
+            "image": "adam-duck.png",
+            "desc": "This is a special treat I prepare for my family. The fruity stuffing makes the duck doubly delicious, and the preparation is fairly lean for such a normally fatty meat. Pretty sophisticated stuff, but not expensive to prepare. We truly enjoy it and hope you will, too :)"
         },
 
         {
@@ -197,7 +191,9 @@
             ],
             "source": "www.epicurious.com",
             "title": "My Mother's Italian-American Meatloaf",
-            "url": "http://www.epicurious.com/recipes/food/views/my-mothers-italian-american-meatloaf-232204"
+            "url": "http://www.epicurious.com/recipes/food/views/my-mothers-italian-american-meatloaf-232204",
+            "image": "mom-meatloaf.png",
+            "desc": "We all have memories either of great or terrible meatloaf meals from childhood. My mom's meatloaf is a fond food memory. It was always moist and juicy, with a touch of Italy from the tomatoes and pecorino Romano cheese."
         },
 
         {
@@ -220,7 +216,9 @@
             ],
             "source": "www.epicurious.com",
             "title": "South American Fried Chicken",
-            "url": "http://www.epicurious.com/recipes/food/views/south-american-fried-chicken-101853"
+            "url": "http://www.epicurious.com/recipes/food/views/south-american-fried-chicken-101853",
+            "image": "pollo.png",
+            "desc": "Pollo Campero is a restaurant chain that originated in Guatemala and is now famous throughout much of Central America and beyond—in particular for the juicy, flavorful, and richly spiced fried chicken recreated by this recipe."
         },
 
         {
@@ -254,7 +252,9 @@
             ],
             "source": "www.epicurious.com",
             "title": "Gochujang-Braised Chicken and Crispy Rice",
-            "url": "http://www.epicurious.com/recipes/food/views/gochujang-braised-chicken-and-crispy-rice"
+            "url": "http://www.epicurious.com/recipes/food/views/gochujang-braised-chicken-and-crispy-rice",
+            "image": "gochujang.png",
+            "desc": "Long-grain rice is not starchy enough to hold together, so make a batch of short-grain a day ahead and you’ll be good to go."
         }
     ]
 }

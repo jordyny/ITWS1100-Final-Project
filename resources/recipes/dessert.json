@@ -1,5 +1,5 @@
 {
-    "Dessert": [
+    "Meal": [
         {
             "directions": [
                 "Preheat oven to 350 degrees F (175 degrees C). Lightly grease cookie sheets.",
@@ -18,7 +18,9 @@
             ],
             "source": "allrecipes.com",
             "title": "Aaron's Chocolate Chunk Oatmeal Cookies",
-            "url": "http://allrecipes.com/recipe/16533/aarons-chocolate-chunk-oatmeal-cooki/"
+            "url": "https://www.justapinch.com/recipes/dessert/cookies/aarons-temptation-chocolate-chip-cookies.html",
+            "image": "aaron-cookie.png",
+            "desc": "These are, by far, the BEST chocolate chip cookies I have ever had. I came up with the recipe about 8 years ago and my husband, Aaron, for whom they are named, can't resist them!"
         },
         
         {
@@ -40,7 +42,9 @@
             ],
             "source": "allrecipes.com",
             "title": "Grandma Abbey's Christmas Cookies",
-            "url": "http://allrecipes.com/recipe/154336/grandma-abbeys-christmas-cookies/"
+            "url": "http://allrecipes.com/recipe/154336/grandma-abbeys-christmas-cookies/",
+            "image": "christmas-cookie.png",
+            "desc": "Grandma Abbey made these cookies for my MIL (her granddaughter) when she was a child in the 1930's. They're my husband's favorite. With a delicate nutmeg flavor, they stand up nicely to frosting. "
         },
 
         {
@@ -55,7 +59,9 @@
             ],
             "source": "allrecipes.com",
             "title": "Acorn Candy Cookies",
-            "url": "http://allrecipes.com/recipe/216459/acorn-candy-cookies/"
+            "url": "http://allrecipes.com/recipe/216459/acorn-candy-cookies/",
+            "image": "acorn-cookie.png",
+            "desc": "Cute little treats all on their own or a fun decoration for your cupcakes! Enjoy as is or use to decorate cupcakes."
         },
 
         {
@@ -89,7 +95,9 @@
             ],
             "source": "allrecipes.com",
             "title": "Adam's 12-inch Deep-Dish Apple Pie",
-            "url": "http://allrecipes.com/recipe/245582/adams-12-inch-deep-dish-apple-pie/"
+            "url": "http://allrecipes.com/recipe/245582/adams-12-inch-deep-dish-apple-pie/",
+            "image": "adam-12inch.png",
+            "desc": "Large 12-inch deep dish apple pie, a classic pie with buttery crust, tart apples, and spices."
         },
 
         {
@@ -115,7 +123,9 @@
             ],
             "source": "allrecipes.com",
             "title": "Adam's Apple Cake",
-            "url": "http://allrecipes.com/recipe/220480/adams-apple-cake/"
+            "url": "http://allrecipes.com/recipe/220480/adams-apple-cake/",
+            "image": "adam-cake.png",
+            "desc": "This simple, delicious apple cake recipe has been in our family for generations."
         },
 
         {
@@ -137,7 +147,9 @@
             ],
             "source": "allrecipes.com",
             "title": "Adam's Dirt Cookies",
-            "url": "http://allrecipes.com/recipe/14992/adams-dirt-cookies/"
+            "url": "http://allrecipes.com/recipe/14992/adams-dirt-cookies/",
+            "image": "dirt-cookies.png",
+            "desc": "Why smash perfectly good cookies just to make another batch of cookies? 'Cause they're YUMMY! Made with crushed sandwich cookies, the small pieces of broken cookie dust make the dough speckled - I've been told they look like they're made with dirt!"
         },
 
         {
@@ -165,7 +177,9 @@
             ],
             "source": "allrecipes.com",
             "title": "All American Apple Pie",
-            "url": "http://allrecipes.com/recipe/18353/all-american-apple-pie/"
+            "url": "http://allrecipes.com/recipe/18353/all-american-apple-pie/",
+            "image": "american-pie.png",
+            "desc": "Quick and easy, with a great non-crust topping. Try a variety of apples, mix it up..."
         }
     ]
 }
