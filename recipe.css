@@ -115,3 +115,74 @@ header {
 #generate-recipe:hover {
   background-color: #cdf4ed;
 }
+
+.footer {
+  position: relative;
+  width: 100%;
+  background: #ddfbf5;
+  min-height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: rgb(236, 175, 236)
+}
+
+.social-icon {
+  display: flex;
+  justify-content: flex-start; /* Align icons to the left */
+  align-items: center;
+  margin: 10px 0;
+  padding-left: 0; /* Remove any default padding that might exist */
+  list-style-type: none; /* Remove bullet points from list items */
+}
+
+.social-icon-footer {
+position: relative;
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 10px 0;
+flex-wrap: nowrap; /* Prevent wrapping onto new lines */
+}
+
+.social-icon__item,
+.menu__item {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.social-icon__link {
+  font-size: 2rem;
+  color: #410e0e;
+  margin: 0; /* Remove any margin */
+  padding: 0; /* Remove any padding */
+  display: inline-block;
+  transition: 0.5s;
+}
+
+.social-icon__link-footer {
+font-size: 2rem;
+color: rgb(232, 198, 232);
+margin: 0; /* Remove any margin */
+padding: 0; /* Remove any padding */
+display: inline-block;
+transition: 0.5s;
+}
+.social-icon__link:hover {
+  transform: translateY(-10px);
+}
+
+.social-icon__link-footer:hover {
+transform: translateY(-10px);
+}
+.footer_text{
+  color: rgb(232, 198, 232);
+  font-family: "Cabin Sketch", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 15px;
+  line-height: 1.5;
+  padding-left: 30px;
+}
