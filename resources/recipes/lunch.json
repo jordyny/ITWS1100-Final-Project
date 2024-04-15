@@ -1,5 +1,5 @@
 {
-    "Lunch":  [
+    "Meal":  [
         {
             "directions": [
                 "Mix the ground beef, onion powder, honey mustard, garlic powder, crushed red pepper, salt, and brown sugar in a large bowl. Shape into 4 patties.",
@@ -19,7 +19,9 @@
             ],
             "source": "allrecipes.com",
             "title": "Aaron's Missouri Burger",
-            "url": "http://allrecipes.com/recipe/145434/aarons-missouri-burger/"
+            "url": "http://allrecipes.com/recipe/145434/aarons-missouri-burger/",
+            "image": "aaron-burger.png",
+            "desc": "BIG BURGER"
         },
 
         {
@@ -39,7 +41,9 @@
             ],
             "source": "allrecipes.com",
             "title": "Adas bil Hamod (Lebanese Lentil Lemon Soup)",
-            "url": "http://allrecipes.com/recipe/163438/adas-bil-hamod-lebanese-lentil-lemon/"
+            "url": "https://bakinghermann.com/adas-bil-hamod-lebanese-lentil-lemon-soup/",
+            "image": "lebanese-soup.png",
+            "desc": "BIG BURGER"
         },
 
         {
@@ -59,7 +63,9 @@
             ],
             "source": "www.epicurious.com",
             "title": "Filipino \"Adobo\"-Style Chicken",
-            "url": "http://www.epicurious.com/recipes/food/views/filipino-adobo-style-chicken-12160"
+            "url": "http://www.epicurious.com/recipes/food/views/filipino-adobo-style-chicken-12160",
+            "image": "filipino-adobo.png",
+            "desc": "(Tangy Soy Chicken)"
         },
 
         {
@@ -80,7 +86,9 @@
             ],
             "source": "www.epicurious.com",
             "title": "Filipino Adobo-Style Cornish Hens Lapid",
-            "url": "http://www.epicurious.com/recipes/food/views/filipino-adobo-style-cornish-hens-lapid-10170"
+            "url": "http://www.epicurious.com/recipes/food/views/filipino-adobo-style-cornish-hens-lapid-10170",
+            "image": "adobo-hen.png",
+            "desc": "(Soy and Vinegar Marinated Cornish Hens)"
         
         },
 
@@ -100,7 +108,9 @@
             ],
             "source": "www.epicurious.com",
             "title": "Grilled Giant Pork Chops with Adobo Paste",
-            "url": "http://www.epicurious.com/recipes/food/views/grilled-giant-pork-chops-with-adobo-paste-238705"
+            "url": "http://www.epicurious.com/recipes/food/views/grilled-giant-pork-chops-with-adobo-paste-238705",
+            "image": "aaron-burger.png",
+            "desc": "BIG BURGER"
         },
 
         {
@@ -122,7 +132,9 @@
             ],
             "source": "www.epicurious.com",
             "title": "Philippine-Style Chicken Adobo",
-            "url": "http://www.epicurious.com/recipes/food/views/philippine-style-chicken-adobo-107410"
+            "url": "http://www.epicurious.com/recipes/food/views/philippine-style-chicken-adobo-107410",
+            "image": "philippine.png",
+            "desc": "While sugarcane vinegar is more often used in the Philippines to make this national dish, apple cider vinegar makes a good substitute if you can't find it."
         },
 
         {
@@ -142,7 +154,9 @@
             ],
             "source": "www.epicurious.com",
             "title": "Roast New York Strip Loin with Adobo Rub",
-            "url": "http://www.epicurious.com/recipes/food/views/roast-new-york-strip-loin-with-adobo-rub-109170"
+            "url": "http://www.epicurious.com/recipes/food/views/roast-new-york-strip-loin-with-adobo-rub-109170",
+            "image": "loin-adobo.png",
+            "desc": "Adobo — a paste made with chiles, spices, and vinegar or sometimes citrus juice — is a flavoring agent found throughout the Spanish-speaking world. This variation with paprika and rosemary serves as the seasoning rub for the meat."
         },
 
         {
@@ -165,7 +179,9 @@
             ],
             "source": "www.epicurious.com",
             "title": "French-American Potato Salad",
-            "url": "http://www.epicurious.com/recipes/food/views/french-american-potato-salad-105397"
+            "url": "http://www.epicurious.com/recipes/food/views/french-american-potato-salad-105397",
+            "image": "french-salad.png",
+            "desc": "This simple potato salad is inspired by one we tried while in Austin. The potato salads I’m used to having are typically dressed with a mayo sauce, making them thicker and more indulgent."
         },
 
         {
@@ -203,7 +219,9 @@
             ],
             "source": "www.foodnetwork.com",
             "title": "All American Beef Taco",
-            "url": "http://www.foodnetwork.com/recipes/alton-brown/all-american-beef-taco-recipe"
+            "url": "http://www.foodnetwork.com/recipes/alton-brown/all-american-beef-taco-recipe",
+            "image": "beef-taco.png",
+            "desc": "Juicy ground sirloin perfectly seasoned with a smoky homemade spice mix and packed into a classic and crunchy yellow corn tortilla — it's a classic all-American beef taco and the perfect vessel for your favorite taco night toppings."
         },
 
         {
@@ -222,7 +240,9 @@
             ],
             "source": "allrecipes.com",
             "title": "All-American Burger Dog",
-            "url": "http://allrecipes.com/recipe/228272/all-american-burger-dog/"
+            "url": "http://allrecipes.com/recipe/228272/all-american-burger-dog/",
+            "image": "burgerdog.png",
+            "desc": "This 'burger dog' is far more than a hot dog-shaped cheeseburger. It's a one-handed wonder that's perfectly proportioned and easier to eat than a regular cheeseburger."
         },
 
         {
@@ -252,7 +272,9 @@
             ],
             "source": "allrecipes.com",
             "title": "Bibimbap (Korean Rice With Mixed Vegetables)",
-            "url": "http://allrecipes.com/recipe/228240/bibimbap-korean-rice-with-mixed-vege/"
+            "url": "https://www.allrecipes.com/recipe/228240/bibimbap-korean-rice-with-mixed-vegetables/",
+            "image": "bibimbap.png",
+            "desc": "This bibimbap recipe makes a popular and delicious Korean meal. "
         }
     ]
 }

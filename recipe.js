@@ -1,4 +1,8 @@
+// RANDOM RECIPE GENERATOR
+
 function selectedMeal(mealType) {
+
+   // update UI to show selected meal
    document.getElementById("selected-meal").textContent = "Selected Meal: " + mealType;
    document.getElementById('breakfast').style = 'background-color: #fdf5df'
    document.getElementById('lunch').style = 'background-color: #fdf5df'
@@ -13,6 +17,56 @@ function selectedMeal(mealType) {
    } else if (mealType == "Dessert") {
       document.getElementById('dessert').style = 'background-color: #ffd5ff;';
    } 
+
+   var JSONfile;
+
+   if (mealType == "Breakfast") {
+      JSONfile = "breakfast.json";
+   }
+
+   else if (mealType == "Lunch") {
+      JSONfile = "lunch.json";
+   }
+
+   else if (mealType == "Dessert") {
+      JSONfile = "dessert.json";
+   }
+
+   else if (mealType == "Dinner") {
+      JSONfile = "dinner.json";
+   }
+   console.log(mealType);
+
+   $.ajax({
+      type: "GET",
+      url: "resources/recipes/" + JSONfile,
+      dataType: "json",
+      success: function(data, status){
+         console.log("Success:", data);
+         var output = "";
+         $.each(data.Meal, function(i, Lunch) {
+            output += "<section class='card'>";
+            output += "<img src='images/" + mealType + "/" + Lunch.image + "' alt='" + Lunch.desc + "'>";
+            output += "<div class='texts'>";
+            output += "<h2>" + Lunch.title + "</h2>";
+            output += "<p>" + Lunch.desc + "</p>";
+            output += "<button type='submit'>More details..</button>";
+            output += "</div>";
+            output += "</section>";
+         });
+         $(".container").html(output);
+         
+         // generate another recipe
+         $("#generate-recipe").click(function() {
+            location.reload();
+         });
+      },
+      error: function(status, error) {
+         console.log("Error:", status, error);
+         // There was a problem
+         alert("There was a problem: " + xhr.status + " " + xhr.statusText);
+      }
+   });
 }
 
 document.querySelectorAll('.color-button').forEach(function(button) {
@@ -22,32 +76,10 @@ document.querySelectorAll('.color-button').forEach(function(button) {
       button2.style.backgroundColor = defaultColor2;
 
       // Change the color of the clicked button
-      button.style.backgroundColor = 'red'; // You can change 'red' to any color you want
+      button.style.backgroundColor = 'red'; 
    });
 });
 
-/*
 $(document).ready(function() {
-   $.ajax({
-      type: "GET",
-    	url: "",
-    	dataType: "json",
-   	success: function(responseData, status){
-         var output = "";
-         $.each(responseData.menuItem, function() {
-            output += ("<a href='" + this.link + "' class=\"projects\">" + this.lab + ": " + this.name + "</a>" +
-            "<p>" + this.description + "</p><br>");
-         });
-         $("#projects").css("display", "none");
-         $("#projects").html(output);
-         console.log("hi");
-         $("#projects").animate({
-             width: "toggle"
-         }, 1500);
-         }, error: function(msg) {
-         // there was a problem
-         alert("There was a problem: " + msg.status + " " + msg.statusText);
-    	}
-    })
-})
-*/
+   
+});

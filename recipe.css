@@ -116,6 +116,38 @@ header {
   background-color: #cdf4ed;
 }
 
+/* Gallery layout for recipes generated */
+
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: center;
+}
+.card{
+  flex: 0 0 200px; margin: 10px;
+  border: 1px solid #ccc;
+  box-shadow: 3px 3px 6px rgba(0,0,0,0.3);
+  text-align: center;
+}
+.container img{
+  max-width: 100%;
+}
+.texts{
+  padding: 5px; margin-bottom:10px;
+}
+.texts button{
+  border: none; padding: 5px 15px;
+  background: #566270; color: #fff;
+  font-weight: 600;
+  transition: all 0.3s ease-in;
+}
+.texts button:hover{
+  background: #E0E3DA; color: #566270; cursor: pointer;
+}
+
+/* Jordyn */
+
 .footer {
   position: relative;
   width: 100%;
@@ -133,7 +165,7 @@ header {
   justify-content: flex-start; /* Align icons to the left */
   align-items: center;
   margin: 10px 0;
-  padding-left: 0; /* Remove any default padding that might exist */
+  padding-left: 0; 
   list-style-type: none; /* Remove bullet points from list items */
 }
 
@@ -143,7 +175,7 @@ display: flex;
 justify-content: center;
 align-items: center;
 margin: 10px 0;
-flex-wrap: nowrap; /* Prevent wrapping onto new lines */
+flex-wrap: nowrap; 
 }
 
 .social-icon__item,
@@ -156,8 +188,8 @@ flex-wrap: nowrap; /* Prevent wrapping onto new lines */
 .social-icon__link {
   font-size: 2rem;
   color: #410e0e;
-  margin: 0; /* Remove any margin */
-  padding: 0; /* Remove any padding */
+  margin: 0; 
+  padding: 0; 
   display: inline-block;
   transition: 0.5s;
 }
@@ -165,8 +197,8 @@ flex-wrap: nowrap; /* Prevent wrapping onto new lines */
 .social-icon__link-footer {
 font-size: 2rem;
 color: rgb(232, 198, 232);
-margin: 0; /* Remove any margin */
-padding: 0; /* Remove any padding */
+margin: 0; 
+padding: 0; 
 display: inline-block;
 transition: 0.5s;
 }
