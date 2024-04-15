@@ -97,7 +97,7 @@ function generateRecipes(mealType) {
             output += "<div class='texts'>";
             output += "<h2>" + randomMeal.title + "</h2>";
             output += "<p>" + randomMeal.desc + "</p>";
-            output += "<button type='submit'>More details..</button>";
+            output += "<a href='"+ randomMeal.url + "' target='_blank''><button type='submit'>More details..</button></a>";
             output += "</div>";
             output += "</section>";
          }
