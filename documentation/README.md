@@ -1,26 +1,44 @@
-# Users:
+# Recipe Rendezvous - Installation and Use Guide
 
-## Wendy - 
-A gourmet chef who is looking for recipes to serve at her restaurant. 
-She wants to create and serve high quality food and is out of ideas. She 
-would utilize Recipe Rendezvous in order to create new, unique meals that offer 
-variety across her menu. 
+Welcome to **Recipe Rendezvous**, a web application designed to inspire culinary creativity by offering tailored recipes that fit your pantry and dietary preferences. Whether you're preparing a hearty breakfast, a quick lunch, a sumptuous dinner, or a sweet dessert, Recipe Rendezvous helps you make meal planning easy and exciting.
 
-## Bob - 
-A junior college student who currently has a low paying job and no free 
-time due to always attending classes and studying hard. He has to take care of 
-himself and so he needs to balance his time cooking meals, doing laundry, running 
-errands, cleaning, etc. He often finds that he doesn’t have enough time to do all 
-these things in a comfortable, timely manner and just wants to be able to cook for 
-himself without always having to waste more and more money on groceries and 
-constantly look for different recipes to try. He just wants a simple way to find 
-new recipes to try.
+## Prereqs
 
-## Dorothy Morris - 
-A single mother of two who is limited by a low budget. 
-She was never formally taught how to cook so she doesn’t feel confident about
-where to start and feels that her current cooking habits could be improved. She 
-is always struggling to figure out how to integrate healthier ingredients into 
-her children’s diets as they are picky eaters as well. → After discovering this 
-app, she was able to be more creative with her dishes and learned a lot of new 
-cooking tips.
+Before using Recipe Rendezvous, ensure you have the following:
+- web browser
+- a local server environment
+
+## Installation
+
+if running on local machine:
+
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/RPI-ITWS/ITWS1100-S24-team9.git
+
+    or download zip file and unzip
+
+2. **Setup local server**
+    move the downloaded project to your local server's root directory
+
+3. **Access**
+    launch your web browser and navigate http://localhost/ITWS1100-S24-team9/index.html
+
+## Usage
+
+### Homepage
+- The homepage is the landing page to learn more about what our website does
+- Naviagate between pages with the top menu 
+
+### Find recipes
+- Click recipe page
+- Select meal type (breakfast, lunch, dinner, dessert)
+- Hit Generate Recipe button to display recipes
+
+### Meet developers
+- Scroll to "Meet the Developers" section
+- Utilize clickable logos and show/hide information
+
+## Troubleshooting
+- ensure javaScript is enabled on browser
+- make sure local server is operational
