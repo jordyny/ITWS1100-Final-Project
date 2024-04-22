@@ -28,7 +28,7 @@ if running on local machine:
 
 ### Homepage
 - The homepage is the landing page to learn more about what our website does
-- Naviagate between pages with the top menu 
+- Naviagate between pages with the top menu  
 
 ### Find recipes
 - Click recipe page
